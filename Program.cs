@@ -46,3 +46,15 @@ Console.WriteLine("--- As the gaurds pull Jake out of the room, 2 of the gaurds 
 Console.WriteLine("--- They pull Jake into the airlock and put clarke into a Skybox jail cell. With the press of a button, Jake is gone, ejected into the dark void of space, dead.");
 
 // Scene 3
+Console.WriteLine();
+Console.WriteLine("--- Clarke gets pulled from the Skybox and belted into a dropship. ---");
+Console.WriteLine("--- The dropship launches from the Ark with the 100 prisoners of the Skybox each with a high tech wristband headed for the nuked planet Earth. The counsil hopes that in light of Jakes discovery of the failing life support the prisoners on Earth can survive long enough to prove that Earth is safe again for survival. ---");
+Console.WriteLine("--- After landing the prisoners step out of the dropships and take there first steps on Earth in over 100 years. None of the prisoners are feeling any negative effects yet so for the time being Earth is safe ---");
+Console.WriteLine();
+
+
+
+
+
+
+
