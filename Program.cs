@@ -52,9 +52,30 @@ Console.WriteLine("--- The dropship launches from the Ark with the 100 prisoners
 Console.WriteLine("--- After landing the prisoners step out of the dropships and take there first steps on Earth in over 100 years. None of the prisoners are feeling any negative effects yet so for the time being Earth is safe ---");
 Console.WriteLine();
 
-
-
-
-
-
-
+// Scene 4
+Console.WriteLine("CHOOSE YOU PATH (Type a number): Should Clarke:");
+Console.WriteLine("1. Help fix the comms that got fried during landing.");
+Console.WriteLine("2. Start building a base.");
+Console.WriteLine("3. Find sources of food and water.");
+Console.WriteLine("4. Explore Earth");
+int selection = int.Parse(Console.ReadLine());
+if(selection > 0 && selection < 5)
+{
+    if(selection == 1)
+    {
+        Console.WriteLine("--- Raven, another prisoner on the dropship and a zero G mechanic from the Ark, comes up to Clarke with a problem. ---");
+        Console.WriteLine("Raven: Clarke, we've got a problem. We can't talk to the Ark. The rough landing we endured caused panels on the roof to fly off and the heat destroyed the wires.");
+    }
+    else if(selection == 2)
+    {
+        Console.WriteLine("--- Clarke starts exploring the woods surrounding the landing site for wood or debris from the dropship during the rough landing. ---");
+    }
+    else if (selection == 3)
+    {
+        Console.WriteLine("--- Food and water first. Remembering the video message from Chancellor Jaha that played in the dropship during landing, there is a chance of getting supplies from Mount Weather. Mount Weather was built before the apocalypse to survive a nuclear war. ---");
+    }
+    else if (selection == 4)
+    {
+        Console.WriteLine("--- After being locked up in the Skybox and trapped in space all her life, Clarke starts exploring Earth. ---");
+    }
+}
