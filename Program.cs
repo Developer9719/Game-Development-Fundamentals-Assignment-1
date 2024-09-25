@@ -64,18 +64,27 @@ if(selection > 0 && selection < 5)
     if(selection == 1)
     {
         Console.WriteLine("--- Raven, another prisoner on the dropship and a zero G mechanic from the Ark, comes up to Clarke with a problem. ---");
-        Console.WriteLine("Raven: Clarke, we've got a problem. We can't talk to the Ark. The rough landing we endured caused panels on the roof to fly off and the heat destroyed the wires.");
+        Console.WriteLine("Raven: Clarke, we've got a problem. We can't talk to the Ark. The rough landing we endured caused panels on the roof to fly off and the heat destroyed the wires. Can you do some searching around a see if you can find some materials for me?");
+        Console.WriteLine("Sure."); 
+        Console.WriteLine("--- Clarke starts exploring the woods surrounding the landing site for debris from the dropship during the rough landing. ---");
+        Console.WriteLine("--- This is a work in progress. Can't continue yet. See code. ---");
+        // Need a way to generate a random number here to continue the game. See flow chart.
     }
     else if(selection == 2)
     {
         Console.WriteLine("--- Clarke starts exploring the woods surrounding the landing site for wood or debris from the dropship during the rough landing. ---");
+        Console.WriteLine("--- This is a work in progress. Can't continue yet. See code. ---");
+        // Need a way to generate a random number here to continue the game. See flow chart.
     }
     else if (selection == 3)
     {
         Console.WriteLine("--- Food and water first. Remembering the video message from Chancellor Jaha that played in the dropship during landing, there is a chance of getting supplies from Mount Weather. Mount Weather was built before the apocalypse to survive a nuclear war. ---");
+        // At this point I am not sure where to take this storyline from here
     }
     else if (selection == 4)
     {
         Console.WriteLine("--- After being locked up in the Skybox and trapped in space all her life, Clarke starts exploring Earth. ---");
+        Console.WriteLine("--- This is a work in progress. Can't continue yet. See code. ---");
+        // Need a way to generate a random number here to continue the game. See flow chart.
     }
 }
